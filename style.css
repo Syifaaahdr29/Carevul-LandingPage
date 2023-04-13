@@ -139,6 +139,12 @@ nav {
   line-height: 75%;
 }
 
+#intro-desc {
+  font-size: 20px;
+  color: #494949;
+  font-weight: 400;
+}
+
 #description {
   font-size: 20px;
   color: #494949;
@@ -222,26 +228,23 @@ div.desc {
 .button {
   border: none;
   padding: 10px 15px;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans';
+  background-image: linear-gradient(to right, #7C1ADD 0%, #296FDE  51%, #3655D5  100%);
   text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 7px;
   display: inline-block;
   font-size: 15px;
   margin: 2px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  border-radius: 7px;
-  font-family: 'Plus Jakarta Sans';
-}
-
-.button-article {
-  background-color: #5279ed;
-  color: white;
-  border: 2px solid #5279ed;
 }
 
 .button-article:hover {
-  background-color: white;
-  color: #5279ed;
-  border: 2px solid #5279ed;
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* FOOTER */
@@ -315,7 +318,7 @@ hr {
   margin: 75px;
   background-color: #f0f5ff;
   margin-bottom: 150px;
-  height: 600px;
+  height: 525px;
 }
 
 .form-email > div {
@@ -361,19 +364,43 @@ input[type=email] {
 }
 
 input[type=number] {
-  width: 30%;
+  width: 50%;
   padding: 7px 10px;
   margin: 8px 0;
   box-sizing: border-box;
   border-radius: 5px;
 }
 
-#form-pengunjung {
-  font-size: 18px;
-  font-weight: 400;
+#zip-code {
+  display: block;
+}
+#status{
+  display: inline-block;
 }
 
 #check {
   font-size: 15px;
-  color: #444444;
+  color: #6e6e6e;
+}
+
+#submit-form {
+  border: none;
+  margin-top: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans';
+  background-image: linear-gradient(to right, #7C1ADD 0%, #296FDE  51%, #3655D5  100%);
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 7px;
+  display: block;
+  font-size: 15px;
+}
+
+#submit-form:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
 }
