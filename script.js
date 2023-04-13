@@ -1,3 +1,4 @@
+// No. 6 handleGetFormData
 let btnSubmit = document.getElementById("submit-form")
 let warning = document.getElementById("warning")
 
@@ -17,3 +18,16 @@ function handleGetFormData () {
     }
     return result
 }
+
+btnSubmit.addEventListener("click", (event) => {
+    event.preventDefault();
+    console.log(handleGetFormData());
+    console.log(!handleGetFormData === null);
+    console.log(validateFormData(handleGetFormData()));
+});
+
+// No.7 isNan
+function isNumber(string) {
+    return !isNaN(string) ? true : false;
+}
+
