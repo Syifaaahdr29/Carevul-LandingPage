@@ -72,7 +72,7 @@ nav {
 	background-size: cover;
   height: 400px;
   margin-top: 0%;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 
 /* PELAYANAN KAMI */
@@ -124,7 +124,7 @@ nav {
   display: flex;
   margin: 75px;
   background-color: #f0f5ff;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
 
 .introduction > div {
@@ -216,7 +216,7 @@ div.desc {
 
 .article-button {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .article-button > div {
@@ -316,7 +316,7 @@ hr {
 .form-email {
   display: flex;
   background-color: #f0f5ff;
-  margin-bottom: 150px;
+  margin-bottom: 120px;
   height: 525px;
 }
 
