@@ -17,7 +17,7 @@
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
               <div class="nav-title" style="float: left;">
-                <img src="./asset/img/logo.png" height="50px">
+                <a href="https://skilvul.com" id="link"><img src="./asset/img/logo.png" height="50px"></a>
               </div>
             </div>
             <div class="nav-btn">
@@ -62,8 +62,8 @@
         </div>
         <div id="intro-text">
           <h3 id="intro-title">Kenalan sama Carevul yuk!</h3>
-          <p id="intro-desc">Dear <b>Carefriends,</b> terima kasih telah membersamai kami sejak tahun 2023. Kami berkomitmen untuk membantu masyarakat dalam layanan konsultasi secara online dan gratis dengan dukungan tenaga kesehatan yang ahli dan profesional.</p>
-          <p id="intro-desc">Tetap dukung kami untuk berkembang menciptakan fasilitas telemedicine yang nyaman digunakan ya Carefriends!</p>
+          <p id="description">Dear <b>Carefriends,</b> terima kasih telah membersamai kami sejak tahun 2023. Kami berkomitmen untuk membantu masyarakat dalam layanan konsultasi secara online dan gratis dengan dukungan tenaga kesehatan yang ahli dan profesional.</p>
+          <p id="description">Tetap dukung kami untuk berkembang menciptakan fasilitas telemedicine yang nyaman digunakan ya Carefriends!</p>
         </div>
       </div>
 
@@ -107,6 +107,39 @@
           </div>
         </div>
       </div>
+      <!-- FORM EMAIL -->
+      <div class="form-email">
+        <div id="form-text">
+          <h3 id="form-title">Pengisian data Pengunjung</h3>
+          <p id="form-desc">Terima kasih karena telah berkunjung pada halaman kami. Sebelumnya, kami meminta data anda untuk data pengunjung. Harap mengisi form dibawah ini ya!</p>
+            
+            <form id="form-pengunjung">
+              <label for="name">Nama:</label> <br>
+              <input type="text" id="name" name="name" required><br>
+        
+              <label for="city">Kota:</label><br>
+              <input type="text" id="city" name="city" required><br>
+        
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br>
+        
+              <label for="zip-code">Kode Pos:</label><br>
+              <input type="number" id="zip-code" name="zip-code" required><br>
+        
+              <input type="checkbox" id="status" name="status" required>
+              <label for="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label><br>
+        
+              <button type="submit" id="submit-form">Submit</button><br>
+              <div id="warning"></div>
+            </form>
+
+
+        </div>
+        <div id="form-img">
+          <img src="./asset/img/doctor.png" width="220px">
+        </div>
+      </div>
+
 </body>
 <footer>
   <div class="container">
