@@ -152,7 +152,7 @@ nav {
 }
 
 #intro-img {
-  padding: 40px 40px 0px 100px;
+  padding: 40px 30px 0px 100px;
 }
 
 #intro-text {
@@ -315,7 +315,6 @@ hr {
 /* FORM */
 .form-email {
   display: flex;
-  margin: 75px;
   background-color: #f0f5ff;
   margin-bottom: 150px;
   height: 525px;
@@ -340,11 +339,11 @@ hr {
 }
 
 #form-img {
-  padding: 80px 100px 0px 40px;
+  padding: 80px 70px 0px 0px;
 }
 
 #form-text {
-  padding: 40px 100px 0px 80px;
+  padding: 40px 50px 0px 120px;
 }
 
 input[type=text] {
