@@ -1,0 +1,311 @@
+/* Tambahkan kode CSS kalian di file ini */
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/* NAVBAR */
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #fafbfd;
+    position: relative;
+  }
+  
+  nav > .nav-header {
+    display: inline;
+  }
+  
+  nav > .nav-header > .nav-title {
+    display: inline-block;
+    padding: 8px 25px 25px 40px;
+    margin-right: 100px;
+  }
+  
+  nav > .nav-btn {
+    display: none;
+  }
+  
+  nav > .nav-links {
+    display: inline;
+    float: left;
+    font-size: 20px;
+  }
+  
+  nav > .nav-links > a {
+    display: inline-block;
+    padding: 25px 50px 30px 0px;
+    text-decoration: none;
+    color: #296FDE;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  
+  nav > .nav-links > a:hover {
+    color: #184793;
+  }
+  
+  nav > #nav-check {
+    display: none;
+  }
+
+  #avatar img {
+    vertical-align: middle;
+    width: 50px;
+    border-radius: 50%;
+    padding-right: 15px;
+  }
+
+  #avatar {
+    font-weight: 700;
+    padding-left: 320px;
+    display: inline;
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px 50px 30px 0px;
+    color: #184793;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: 1px;
+  }
+
+/* HEADER */
+.header-img {
+  background:  url(./asset/img/header.png);
+	background-position: center;
+	background-size: cover;
+  height: 400px;
+  margin-top: 0%;
+  margin-bottom: 150px;
+}
+
+/* PELAYANAN KAMI */
+#layanan-title {
+  text-align: center;
+  font-weight: 800;
+  color: #286edd;
+  font-size: 27px;
+  line-height: 50%;
+}
+
+#layanan-desc {
+  text-align: center;
+  font-weight: 400;
+  color: #494949;
+  font-size: 18px;
+}
+
+.layanan-card {
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 120px;
+  margin-top: 30px;
+}
+
+.layanan-card > div {
+  padding: 50px 30px 30px 30px;
+  margin: 20px;
+  font-size: 30px;
+  width: 400px;
+  background-color: #f6f9ff;
+  border-radius: 8px;
+  font-size: 18px;
+  color: #494949;
+  font-weight: 800;
+  text-align: center;
+  border: 2px solid #286edd;
+}
+
+#layanan-desc2 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 50%;
+}
+
+/* INTRODUCTION */
+.introduction {
+  display: flex;
+  margin: 75px;
+  background-color: #f0f5ff;
+  margin-bottom: 150px;
+}
+
+.introduction > div {
+  font-size: 30px;
+  text-align: left;
+}
+
+#intro-title {
+  font-size: 25px;
+  color: #286edd;
+  font-weight: 800;
+  line-height: 75%;
+}
+
+#intro-desc {
+  font-size: 20px;
+  color: #494949;
+  font-weight: 400;
+}
+
+#intro-img {
+  padding: 40px 40px 0px 100px;
+}
+
+#intro-text {
+  padding: 60px 100px 0px 60px;
+}
+
+/* ARTICLE */
+#article-title {
+  text-align: center;
+  font-weight: 800;
+  color: #286edd;
+  font-size: 27px;
+  line-height: 50%;
+}
+
+#article-desc {
+  text-align: center;
+  font-weight: 400;
+  color: #494949;
+  font-size: 18px;
+}
+
+.article-card {
+  display: flex;
+  margin-left: 120px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+
+.article-card > div {
+  padding-left: 0px;
+  padding-right: 20px;
+  width: 500px;
+  margin-top: 30px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+  float: left;
+  width: 350px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0px 0px;
+}
+
+div.desc {
+  padding: 10px 20px 20px 20px;
+  text-align: left;
+  color: rgb(59, 59, 59);
+  font-weight: 600;
+}
+
+.article-button {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.article-button > div {
+  width: 700px;
+  margin: 30px 50px;
+  padding-left: 100px;
+}
+
+.button {
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 7px;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.button-article {
+  background-color: #5279ed;
+  color: white;
+  border: 2px solid #5279ed;
+}
+
+.button-article:hover {
+  background-color: white;
+  color: #5279ed;
+  border: 2px solid #5279ed;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f8f8f8;
+  color: #777;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  width: 35%;
+  padding: 0 20px;
+}
+
+.footer-center {
+  width: 20%;
+  padding: 0px 0px 0px 50px;
+}
+
+.footer-right {
+  width: 35%;
+  padding: 0px 20px 0px 0px;
+}
+
+h4 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #777;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #333;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
