@@ -35,3 +35,23 @@ function isNumber(string) {
 function checkboxIsChecked() {
     return document.getElementById("status").checked == true ? true : false;
 }
+
+// No. 9 Validasi Inputan User
+function validateFormData(object) {
+  if (!object.name || !object.email || !object.city) return false;
+  if (!isNumber(object.zipCode)) return false;
+  if (!checkboxIsChecked()) return false;
+  return true;
+}
+
+// No. 10 Pemeriksaan form
+function submit(){
+    event.preventDefault()
+    if (!validateFormData(handleGetFormData())) {
+        warning.innerHTML = "Periksa form anda sekali lagi";
+    } else {
+        warning.innerHTML = "";
+    }
+}
+const form = document.querySelector("form");
+form.addEventListener("submit", submit);
