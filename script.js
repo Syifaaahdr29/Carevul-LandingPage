@@ -31,3 +31,7 @@ function isNumber(string) {
     return !isNaN(string) ? true : false;
 }
 
+// No. 8 Validate Checkbox
+function checkboxIsChecked() {
+    return document.getElementById("status").checked == true ? true : false;
+}
